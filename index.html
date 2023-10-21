@@ -1,17 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple website clone</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Apple website</h1>
-    <nav>
-        <ul>
-            <li href="#">About</li>
-        </ul>
-    </nav>
+    <div id="container">
+      <header id="sidebar">
+        <div class="logo">
+          <img src="./assets/Spotify logo.png" alt="logo">
+        </div>
+        <section id="first-section">
+          <div class="home">
+            <span>
+              <img src="./assets/fi-ss-home.png" alt="home">
+            </span>
+            <span>Home</span>
+          </div>
+          <div class="search">
+            <span>
+              <img src="./assets/fi-rs-search.png" alt="Search">
+            </span>
+            <span>Search</span>
+          </div>
+          <div class="library">
+            <span>
+              <img src="./assets/library.png" alt="library">
+            </span>
+            <span>Your Library</span>
+          </div>
+        </section>
+        <section id="second-section">
+          <div class="c-play">
+            <span class="img-1">
+              <img src="./assets/fi-ss-plus-small.png" alt="Playlist">
+            </span>
+            <span class="text-1">Create Playlist</span>
+          </div>
+          <div class="liked">
+            <span class="img-2">
+              <img src="./assets/fi-ss-heart.png" alt="liked">
+            </span>
+            <span>Liked Songs</span>
+          </div>
+          <div class="ep-1">
+            <span class="img-3">
+              <img src="./assets/Group.png" alt="ep1">
+            </span>
+            <span>Your Episodes</span>
+          </div>
+        </section>
+        <section id="third-section">
+          <ul class="list-items">
+            <li><a href="#">FAV</a></li>
+            <li><a href="#">Daily Mix 1</a></li>
+            <li><a href="#">Discover Weekly</a></li>
+            <li><a href="#">Malayalam</a></li>
+            <li><a href="#">Dance / Electronix Mix</a></li>
+            <li><a href="#">EDM / Popular</a></li>
+          </ul>
+        </section>
+      </header>
+      <main id="main-content">
+        <div>
+          <h2>Good morning</h2>
+          <div class="list">
+            <div class="card-1"><img src="./assets/Rectangle 1.svg">Liked songs</div>
+            <div class="card-1"><img src="./assets/Rectangle 2.png">Neffex Playlist</div>
+            <div class="card-1"><img src="./assets/Rectangle 3.svg">K/ DA</div>
+            <div class="card-1"><img src="./assets/Rectangle 4.png">Dance / Electronic Mix</div>
+          </div>
+          <h3>Shows you might like</h3>
+          <div id="mini-content">
+            <div class="mc-1">
+              <img src="./assets/Rectangle 16.png">
+              <h4>Weekly Motivatio...</h4>
+              <p>Ben Ina Scott</p>
+            </div>
+            <div class="mc-1">
+              <img src="./assets/Rectangle 16 (1).png">
+              <h4>Weekly Motivatio...</h4>
+              <p>Ben Ina Scott</p>
+            </div>
+            <div class="mc-1">
+              <img src="./assets/Rectangle 16 (2).png">
+              <h4>Weekly Motivatio...</h4>
+              <p>Ben Ina Scott</p>
+            </div>
+            <div class="mc-1">
+              <img src="./assets/Rectangle 16 (3).png">
+              <h4>Weekly Motivatio...</h4>
+              <p>Ben Ina Scott</p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer id="player"></footer>
+    </div>
 </body>
 </html>
